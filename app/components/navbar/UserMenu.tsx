@@ -47,7 +47,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
 
         {currentUser && (
           <div className="flex items-center gap-3">
-            <MenuItem label="Mis mensajes" onClick={() => {}} />
+            
           </div>
         )}
       </div>
