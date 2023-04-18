@@ -151,7 +151,7 @@ const Links = () => {
                     "
             >
                 <AiOutlineMenu />
-                <div className='px-3'>Menú</div>
+                <div className='px-3 hidden md:block' >Menú</div>
             </div>
             {isOpen && (
                 <div
@@ -159,8 +159,8 @@ const Links = () => {
                     absolute
                     rounded-sm
                     shadow-md
-                    w-100
-                    w-full
+                    
+                    w-96
                     justify-center
                     bg-slate-100
                     overflow-hidden

@@ -32,6 +32,7 @@ const Msj: React.FC<UserMenuProps> = ({
             transition
             cursor-pointer
             bg-sky-900
+            h-10
             "
                     >
                         <div
@@ -57,7 +58,7 @@ const Msj: React.FC<UserMenuProps> = ({
                                 Mensajes a Hebe
                             </div>
                             <div className="text-white">
-                                <BiEnvelope size={22} />
+                                <BiEnvelope size={"22px"} />
                             </div>
 
                         </div>
@@ -74,10 +75,12 @@ const Msj: React.FC<UserMenuProps> = ({
             rounded-full
             shadow-sm
             hover:shadow-md
-            hover:bg-gray-500
+            hover:bg-cyan-500
             transition
             cursor-pointer
             bg-sky-900
+            h-10
+
             "
                     >
                         <div

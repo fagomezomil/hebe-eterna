@@ -21,7 +21,7 @@ interface NavbarProps {
             className="
             pt-4
             pb-0
-            border-b-[1px]
+            
             "
             >
             <Container>
@@ -42,7 +42,7 @@ interface NavbarProps {
                 <div className="flex">
                   
                 <Msj currentUser ={currentUser} />
-                {/* <Avatar src={currentUser?.image}/> */}
+                
                 <UserMenu currentUser ={currentUser} />
                 
                 </div>
